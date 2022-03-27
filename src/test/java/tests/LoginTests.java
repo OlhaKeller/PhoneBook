@@ -43,7 +43,7 @@ public class LoginTests extends TestBase{
         app.getHelperUser().openLoginRegistrationForm();
 
         //fill email
-        app.getHelperUser().fillLoginRegistrationForm("noa@gmail.com", "Nnoa12345$");
+        app.getHelperUser().fillLoginRegistrationForm("kvitka@gmail.com", "Kvi12345$");
         app.getHelperUser().submitLogin();
 
       //  type(By.xpath("//input[1]"),"noa@gmail.com");
@@ -59,7 +59,7 @@ public class LoginTests extends TestBase{
     @Test
     public void loginSuccessNewModel(){
 
-        User user = new User().withEmail("noa@gmail.com").withPassword("Nnoa12345$");
+        User user = new User().withEmail("kvitka@gmail.com").withPassword("Kvi12345$");
 
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
@@ -67,5 +67,17 @@ public class LoginTests extends TestBase{
 
 
         Assert.assertTrue(app.getHelperUser().isLoginRegistrationSuccess());
+    }
+    @Test
+    public void loginNegativWrongPassword(){
+        User user = new User().withEmail("kvitka@gmail.com").withPassword("12345");
+        app.getHelperUser().openLoginRegistrationForm();
+        app.getHelperUser().fillLoginRegistrationForm(user);
+        app.getHelperUser().submitLogin();
+        Assert.assertFalse(app.getHelperUser().isLoginRegistrationSuccess());
+        Assert.assertTrue(app.getHelperUser().isAlertDisplay());
+
+        Assert.assertTrue(app.getHelperUser().isErrorWrongFormat());
+
     }
 }

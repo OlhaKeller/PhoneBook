@@ -43,11 +43,11 @@ public class HelperUser extends HelperBase{
     }
 
     public boolean isSingOutPresent() {
-        return isElementPresent(By.xpath("//button[text()='Sing Out']"));
+        return isElementPresent(By.xpath("//*[text()='Sing Out']"));
     }
 
     public void isSingOut() {
-        click(By.xpath("//button[text()='Sing Out']"));
+        click(By.xpath("//*[text()='Sing Out']"));
     }
 
     public boolean isAlertDisplay() {

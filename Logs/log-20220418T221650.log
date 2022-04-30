@@ -1,0 +1,14 @@
+22:17:01.494 INFO  manager.ApplicationManager - The link is-->https://contacts-app.tobbymarshall815.vercel.app/home
+22:17:01.530 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sing Out']
+22:17:06.582 INFO  manager.MyListener - The Element with locator --->By.xpath: //button[text()='Sing Out']<-----was found
+22:17:06.586 INFO  tests.TestBase - Tests starts with email: 'kvitka@gmail.com' and password: 'Kvi12345$'
+22:17:06.587 INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+22:17:06.765 INFO  manager.MyListener - The Element with locator --->By.cssSelector: [href='/login']<-----was found
+22:17:07.610 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[1]
+22:17:07.672 INFO  manager.MyListener - The Element with locator --->By.xpath: //input[1]<-----was found
+22:17:08.166 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[2]
+22:17:08.203 INFO  manager.MyListener - The Element with locator --->By.xpath: //input[2]<-----was found
+22:17:08.618 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Login']
+22:17:08.672 INFO  manager.MyListener - The Element with locator --->By.xpath: //*[text()=' Login']<-----was found
+22:17:08.815 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()='Sign Out']
+22:17:13.889 INFO  manager.MyListener - The Element with locator --->By.xpath: //*[text()='Sign Out']<-----was found

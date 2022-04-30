@@ -1,0 +1,83 @@
+15:08:26.855 INFO  manager.ApplicationManager - The link is-->https://contacts-app.tobbymarshall815.vercel.app/home
+15:08:26.911 INFO  tests.TestBase - Start test --->loginModelDataProviderCSV
+15:08:26.915 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sing Out']
+15:08:31.946 INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sing Out'] <--- was found
+15:08:31.953 INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+15:08:31.969 INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/login'] <--- was found
+15:08:32.144 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[1]
+15:08:32.169 INFO  manager.MyListener - The element with locator ---> By.xpath: //input[1] <--- was found
+15:08:32.311 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[2]
+15:08:32.332 INFO  manager.MyListener - The element with locator ---> By.xpath: //input[2] <--- was found
+15:08:32.460 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Login']
+15:08:32.483 INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()=' Login'] <--- was found
+15:08:32.543 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()='Sign Out']
+15:08:33.124 INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()='Sign Out'] <--- was found
+15:08:33.129 INFO  tests.TestBase - Start test --->loginModelDataProviderCSV
+15:08:33.130 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sing Out']
+15:08:38.192 INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sing Out'] <--- was found
+15:08:38.193 INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+15:08:43.275 INFO  manager.MyListener - We have a 'throwable' -- >no such element: Unable to locate element: {"method":"css selector","selector":"[href='/login']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VKFDTO5N', ip: '192.168.178.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\RODGER~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64940}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 592486b41af450f195db093f57066161
+*** Element info: {Using=css selector, value=[href='/login']}
+15:08:43.276 INFO  manager.MyListener - We have a 'fill In StackTrace' -- >org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[href='/login']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VKFDTO5N', ip: '192.168.178.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\RODGER~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64940}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 592486b41af450f195db093f57066161
+*** Element info: {Using=css selector, value=[href='/login']}
+15:08:44.537 INFO  manager.MyListener - This is the link to screen with problem -->src/test/screenshots/screen-523.png
+15:08:44.538 INFO  tests.TestBase - Start test --->loginModelDataProviderCSV
+15:08:44.539 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sing Out']
+15:08:49.591 INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sing Out'] <--- was found
+15:08:49.593 INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+15:08:54.655 INFO  manager.MyListener - We have a 'throwable' -- >no such element: Unable to locate element: {"method":"css selector","selector":"[href='/login']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VKFDTO5N', ip: '192.168.178.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\RODGER~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64940}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 592486b41af450f195db093f57066161
+*** Element info: {Using=css selector, value=[href='/login']}
+15:08:54.656 INFO  manager.MyListener - We have a 'fill In StackTrace' -- >org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[href='/login']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VKFDTO5N', ip: '192.168.178.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\RODGER~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64940}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 592486b41af450f195db093f57066161
+*** Element info: {Using=css selector, value=[href='/login']}
+15:08:55.167 INFO  manager.MyListener - This is the link to screen with problem -->src/test/screenshots/screen-534.png
+15:08:55.169 INFO  tests.TestBase - Start test --->loginModelDataProviderCSV
+15:08:55.170 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sing Out']
+15:09:00.188 INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sing Out'] <--- was found
+15:09:00.189 INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+15:09:05.204 INFO  manager.MyListener - We have a 'throwable' -- >no such element: Unable to locate element: {"method":"css selector","selector":"[href='/login']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VKFDTO5N', ip: '192.168.178.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\RODGER~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64940}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 592486b41af450f195db093f57066161
+*** Element info: {Using=css selector, value=[href='/login']}
+15:09:05.204 INFO  manager.MyListener - We have a 'fill In StackTrace' -- >org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[href='/login']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VKFDTO5N', ip: '192.168.178.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\RODGER~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64940}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 592486b41af450f195db093f57066161
+*** Element info: {Using=css selector, value=[href='/login']}
+15:09:05.616 INFO  manager.MyListener - This is the link to screen with problem -->src/test/screenshots/screen-545.png

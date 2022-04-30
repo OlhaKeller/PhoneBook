@@ -1,0 +1,4 @@
+19615 [Test worker] INFO  manager.ApplicationManager - The link is-->https://contacts-app.tobbymarshall815.vercel.app/home
+25465 [Test worker] INFO  tests.TestBase - Tests starts with email: 'kvitka@gmail.com' and password: 'Kvi12345$'
+6184 [Test worker] INFO  manager.ApplicationManager - The link is-->https://contacts-app.tobbymarshall815.vercel.app/home
+11404 [Test worker] INFO  tests.TestBase - Tests starts with email: 'kvitka@gmail.com' and password: 'Kvi12345$'

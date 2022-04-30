@@ -1,0 +1,14 @@
+22:14:30.854 INFO  manager.ApplicationManager - The link is-->https://contacts-app.tobbymarshall815.vercel.app/home
+22:14:30.965 INFO  tests.TestBase - Start test --->loginSuccessNewModel
+22:14:30.970 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Sing Out']
+22:14:36.006 INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sing Out'] <--- was found
+22:14:36.008 INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+22:14:36.037 INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/login'] <--- was found
+22:14:36.135 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[1]
+22:14:36.165 INFO  manager.MyListener - The element with locator ---> By.xpath: //input[1] <--- was found
+22:14:36.337 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[2]
+22:14:36.361 INFO  manager.MyListener - The element with locator ---> By.xpath: //input[2] <--- was found
+22:14:36.483 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Login']
+22:14:36.501 INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()=' Login'] <--- was found
+22:14:36.546 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()='Sign Out']
+22:14:37.005 INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()='Sign Out'] <--- was found

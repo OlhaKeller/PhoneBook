@@ -33,7 +33,6 @@ public class HelperUser extends HelperBase{
 
     public void submitLogin() {
         click(By.xpath("//*[text()=' Login']"));
-
     }
     public boolean isLoginRegistrationSuccess() {
         return isElementPresent(By.xpath("//*[text()='Sign Out']"));
@@ -75,4 +74,11 @@ public class HelperUser extends HelperBase{
         //alert.sendKeys("Hello");
         return error.contains("Wrong email or password format");
     }
+
+    public void login(User user) {
+        openLoginRegistrationForm();
+        fillLoginRegistrationForm(user);
+        submitLogin();
+    }
+
 }

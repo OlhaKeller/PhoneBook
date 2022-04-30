@@ -19,8 +19,11 @@ public class Registration extends TestBase{
     @Test
     public void registrationSuccess(){
     //open regform
-        int index = (int)(System.currentTimeMillis()/1000)%36000;
-        System.out.print(index);
+        int index = (int)(System.currentTimeMillis()/1000)%3600;
+        System.out.print("zha"+index+"@gmail.com");
+        logger.info("zha"+index+"@gmail.com");
+        logger.info("The index is:"+index);
+
 
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm("zha"+index+"@gmail.com","Cha12345$");
@@ -39,7 +42,9 @@ public class Registration extends TestBase{
         int index = (int)(System.currentTimeMillis()/1000)%36000;
         System.out.print(index);
         //System.out.print(index);
-        User user = new User().withEmail("zha"+index+"@gmail.com").withPassword("Cha12345$");
+        User user = new User()
+                .withEmail("zha"+index+"@gmail.com")
+                .withPassword("Cha12345$");
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
         app.getHelperUser().submitRegistration();
@@ -47,4 +52,6 @@ public class Registration extends TestBase{
        // Assert.assertTrue(app.getHelperUser().isLoginRegistrationSuccess());
         Assert.assertTrue(app.getHelperUser().isLoginRegistrationSuccess());
     }
+
+
 }

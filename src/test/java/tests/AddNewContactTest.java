@@ -1,5 +1,6 @@
 package tests;
 
+import manager.MyDataProvider;
 import models.Contact;
 import models.User;
 import org.testng.Assert;
@@ -10,7 +11,7 @@ public class AddNewContactTest extends TestBase{
 
     @BeforeMethod
     public void preCondition(){
-    if(!app.getHelperUser().isSingOutPresent()){
+    if(!app.getHelperUser().isSignOutPresent()){
         app.getHelperUser().login(new User().withEmail("kvitka@gmail.com").withPassword("Kvi12345$"));
     }
     }
@@ -35,4 +36,15 @@ public class AddNewContactTest extends TestBase{
         Assert.assertTrue(app.contact().isContactByPhone(contact.getPhone()));
     }
 
+    @Test(dataProvider = "validDataContact", dataProviderClass = MyDataProvider.class)
+    public void addNewContactSuccessDataProviderCSV(Contact contact){
+        int index = (int) (System.currentTimeMillis()/1000)%3600;
+
+        app.contact().openContactForm();
+        app.contact().fillContactForm(contact);
+        app.contact().saveContact();
+
+        Assert.assertTrue(app.contact().isContactByName(contact.getName()));
+        Assert.assertTrue(app.contact().isContactByPhone(contact.getPhone()));
+    }
 }

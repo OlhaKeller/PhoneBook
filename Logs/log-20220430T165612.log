@@ -1,0 +1,77 @@
+16:56:20.604 INFO  manager.ApplicationManager - The link is-->https://contacts-app.tobbymarshall815.vercel.app/home
+16:56:20.714 INFO  tests.TestBase - Start test --->addNewContactSuccessDataProviderCSV
+16:56:20.715 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()='Sign Out']
+16:56:25.788 INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()='Sign Out'] <--- was found
+16:56:25.841 INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+16:56:25.857 INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/login'] <--- was found
+16:56:26.008 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[1]
+16:56:26.113 INFO  manager.MyListener - The element with locator ---> By.xpath: //input[1] <--- was found
+16:56:26.287 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[2]
+16:56:26.310 INFO  manager.MyListener - The element with locator ---> By.xpath: //input[2] <--- was found
+16:56:26.420 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Login']
+16:56:26.432 INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()=' Login'] <--- was found
+16:56:26.494 INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/add']
+16:56:26.890 INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/add'] <--- was found
+16:56:26.965 INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Name']
+16:56:26.993 INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Name'] <--- was found
+16:56:27.137 INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Last Name']
+16:56:27.154 INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Last Name'] <--- was found
+16:56:27.261 INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Phone']
+16:56:27.281 INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Phone'] <--- was found
+16:56:27.400 INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='email']
+16:56:27.420 INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='email'] <--- was found
+16:56:27.543 INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Address']
+16:56:27.562 INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Address'] <--- was found
+16:56:27.694 INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='description']
+16:56:27.718 INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='description'] <--- was found
+16:56:27.829 INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: b
+16:56:27.844 INFO  manager.MyListener - The element with locator ---> By.cssSelector: b <--- was found
+16:56:32.911 INFO  manager.MyListener - We have a 'throwable' -- >element not interactable
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VKFDTO5N', ip: '192.168.178.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\RODGER~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60303}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bb0ab88fd0663d6c00b990649032813
+16:56:32.912 INFO  manager.MyListener - We have a 'fill In StackTrace' -- >org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VKFDTO5N', ip: '192.168.178.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\RODGER~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60303}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bb0ab88fd0663d6c00b990649032813
+16:56:34.961 INFO  manager.MyListener - This is the link to screen with problem -->src/test/screenshots/screen-3392.png
+16:56:34.965 INFO  tests.TestBase - Start test --->addNewContactSuccessDataProviderCSV
+16:56:34.966 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()='Sign Out']
+16:56:34.995 INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()='Sign Out'] <--- was found
+16:56:34.996 INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/add']
+16:56:35.017 INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/add'] <--- was found
+16:56:35.116 INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Name']
+16:56:35.142 INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Name'] <--- was found
+16:56:35.446 INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Last Name']
+16:56:35.471 INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Last Name'] <--- was found
+16:56:35.599 INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Phone']
+16:56:35.611 INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Phone'] <--- was found
+16:56:35.734 INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='email']
+16:56:35.749 INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='email'] <--- was found
+16:56:35.863 INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='Address']
+16:56:35.888 INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Address'] <--- was found
+16:56:35.999 INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [placeholder='description']
+16:56:36.013 INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='description'] <--- was found
+16:56:36.126 INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: b
+16:56:36.143 INFO  manager.MyListener - The element with locator ---> By.cssSelector: b <--- was found
+16:56:41.215 INFO  manager.MyListener - We have a 'throwable' -- >element not interactable
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VKFDTO5N', ip: '192.168.178.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\RODGER~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60303}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bb0ab88fd0663d6c00b990649032813
+16:56:41.216 INFO  manager.MyListener - We have a 'fill In StackTrace' -- >org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-VKFDTO5N', ip: '192.168.178.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\RODGER~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60303}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bb0ab88fd0663d6c00b990649032813
+16:56:43.216 INFO  manager.MyListener - This is the link to screen with problem -->src/test/screenshots/screen-3401.png

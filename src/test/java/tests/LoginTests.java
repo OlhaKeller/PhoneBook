@@ -33,8 +33,8 @@ public class LoginTests extends TestBase{
     @BeforeMethod
     public void preCondition(){
         //is logged? ->logout
-        if(app.getHelperUser().isSingOutPresent()){
-            app.getHelperUser().isSingOut();
+        if(app.getHelperUser().isSignOutPresent()){
+            app.getHelperUser().isSignOut();
         }
     }
 

@@ -2,6 +2,7 @@ package manager;
 
 import models.Contact;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -25,9 +26,19 @@ public class HelperContact extends HelperBase{
         type(By.cssSelector("[placeholder='description']"), contact.getDescription());
     }
 
-    public void saveContact() {
+    /*public void saveContact() {
         click(By.cssSelector("b"));
         // click(By.cssSelector(".add_form__2rsm2 button"));
+    }*/
+
+    public void saveContact() {
+
+        WebElement element = wd.findElement(By.cssSelector(".add_form__2rsm2 button"));
+
+        element.sendKeys(Keys.TAB);
+        pause(500);
+        element.sendKeys(Keys.ENTER);
+
     }
 
     public boolean isContactByName(String name) {
@@ -46,5 +57,43 @@ public class HelperContact extends HelperBase{
                 return true;
         }
         return false;
+    }
+
+    public int removeOneContact() {
+        int countBefore = countOfContacts();
+
+        if(!isContactListEmpty()){
+            //wd.findElement(By.cssSelector(".contact-item_card__2SOIM")).click(); kolu nemae methodu click
+            click(By.cssSelector(".contact-item_card__2SOIM"));
+            click(By.xpath("//button[text()='Remove']"));
+            pause(500);
+        }
+
+        int countAfter = countOfContacts();
+        return countBefore-countAfter;
+    }
+
+    private boolean isContactListEmpty() {
+        return wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).isEmpty();
+    }
+
+
+    private int countOfContacts() {
+        return wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).size();
+
+    }
+
+    public void removeAllContacts() {
+        while( wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).size() !=0){
+
+            click(By.cssSelector(".contact-item_card__2SOIM"));
+            click(By.xpath("//button[text()='Remove']"));
+            pause(500);
+        }
+        
+    }
+
+    public void provideContactData() {
+        //add contact(3-4)
     }
 }

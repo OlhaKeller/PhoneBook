@@ -17,7 +17,7 @@ public class MyDataProvider {
         list.add(new Object[]{"kvitka@gmail.com","Kvi12345$"});
         list.add(new Object[]{"mona@gmail.com","Mm12345$"});
         list.add(new Object[]{"zoa@gmail.com","Zoa12345$"});
-        list.add(new Object[]{"wik416@gmail.com","Ww12345$"});
+        list.add(new Object[]{"wick416@gmail.com","Ww12345$"});
 
         return list.iterator();
     }
@@ -29,7 +29,7 @@ public class MyDataProvider {
         list.add(new Object []{new User().withEmail("kvitka@gmail.com").withPassword("Kvi12345$")});
         list.add(new Object []{new User().withEmail("mona@gmail.com").withPassword("Mm12345$")});
         list.add(new Object []{new User().withEmail("zoa@gmail.com").withPassword("Zoa12345$")});
-        list.add(new Object []{new User().withEmail("wik416@gmail.com").withPassword("Ww12345$")});
+        list.add(new Object []{new User().withEmail("wick416@gmail.com").withPassword("Ww12345$")});
 
 
     return list.iterator();

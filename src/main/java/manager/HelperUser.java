@@ -42,12 +42,12 @@ public class HelperUser extends HelperBase{
         click(By.xpath("//button[2]"));
     }
 
-    public boolean isSingOutPresent() {
-        return isElementPresent(By.xpath("//*[text()='Sing Out']"));
+    public boolean isSignOutPresent() {
+        return isElementPresent(By.xpath("//*[text()='Sign Out']"));
     }
 
-    public void isSingOut() {
-        click(By.xpath("//*[text()='Sing Out']"));
+    public void isSignOut() {
+        click(By.xpath("//*[text()='Sign Out']"));
     }
 
     public boolean isAlertDisplay() {

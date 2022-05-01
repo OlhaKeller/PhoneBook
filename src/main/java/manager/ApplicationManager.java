@@ -26,9 +26,10 @@ public class ApplicationManager {
         contact = new HelperContact(wd);
 
         wd.register(new MyListener());//tut mu ix svysala, listener bude fiksuvatu webdriver
+
     }
     public void stop(){
-      //  wd.quit();
+       wd.quit();
     }
 
     public HelperUser getHelperUser() {   //3 Schritt

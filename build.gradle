@@ -25,7 +25,6 @@ dependencies {
 test {
     useTestNG()
 }
-
 test reg(type: Test){
     useTestNG(){
         suites 'src/test/resources/testng.xml'

@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class Registration extends TestBase{
 
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition(){
         //is logged? ->logout
         if(app.getHelperUser().isSignOutPresent()){
@@ -16,7 +16,7 @@ public class Registration extends TestBase{
         }
     }
 
-    @Test
+    @Test(groups ={"web"})
     public void registrationSuccess(){
     //open regform
         int index = (int)(System.currentTimeMillis()/1000)%3600;

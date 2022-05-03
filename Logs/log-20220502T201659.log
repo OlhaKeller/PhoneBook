@@ -1,0 +1,43 @@
+20:16:59.446 INFO  manager.TestNgMyListener - onStart(ISuite suite)
+20:17:02.867 INFO  manager.ApplicationManager - The link is-->https://contacts-app.tobbymarshall815.vercel.app/home
+20:17:02.923 INFO  tests.TestBase - Start test --->loginNegativWrongPassword
+20:17:02.927 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()='Sign Out']
+20:17:07.958 INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()='Sign Out'] <--- was found
+20:17:07.961 INFO  manager.TestNgMyListener - onTestStartnull
+20:17:07.963 INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+20:17:07.992 INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/login'] <--- was found
+20:17:08.127 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[1]
+20:17:08.166 INFO  manager.MyListener - The element with locator ---> By.xpath: //input[1] <--- was found
+20:17:08.427 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[2]
+20:17:08.458 INFO  manager.MyListener - The element with locator ---> By.xpath: //input[2] <--- was found
+20:17:08.671 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Login']
+20:17:08.705 INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()=' Login'] <--- was found
+20:17:08.780 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()='Sign Out']
+20:17:09.612 INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()='Sign Out'] <--- was found
+20:17:09.696 INFO  tests.TestBase - Start test --->registrationSuccess
+20:17:09.699 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()='Sign Out']
+20:17:14.779 INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()='Sign Out'] <--- was found
+20:17:14.781 INFO  manager.TestNgMyListener - onTestStartnull
+20:17:14.790 INFO  tests.TestBase - zha1034@gmail.com
+20:17:14.793 INFO  tests.TestBase - The index is:1034
+20:17:14.794 INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login']
+20:17:14.812 INFO  manager.MyListener - The element with locator ---> By.cssSelector: [href='/login'] <--- was found
+20:17:14.906 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[1]
+20:17:14.938 INFO  manager.MyListener - The element with locator ---> By.xpath: //input[1] <--- was found
+20:17:15.161 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //input[2]
+20:17:15.182 INFO  manager.MyListener - The element with locator ---> By.xpath: //input[2] <--- was found
+20:17:15.400 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[2]
+20:17:15.439 INFO  manager.MyListener - The element with locator ---> By.xpath: //button[2] <--- was found
+20:17:15.511 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()='Sign Out']
+20:17:16.835 INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()='Sign Out'] <--- was found
+20:17:16.842 INFO  tests.TestBase - Start test --->removeOneContact
+20:17:16.845 INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()='Sign Out']
+20:17:16.880 INFO  manager.MyListener - The element with locator ---> By.xpath: //*[text()='Sign Out'] <--- was found
+20:17:16.884 INFO  manager.TestNgMyListener - onTestStartnull
+20:17:16.886 INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: .contact-item_card__2SOIM
+20:17:21.954 INFO  manager.MyListener - The element with locator ---> By.cssSelector: .contact-item_card__2SOIM <--- was found
+20:17:21.955 INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: .contact-item_card__2SOIM
+20:17:27.010 INFO  manager.MyListener - The element with locator ---> By.cssSelector: .contact-item_card__2SOIM <--- was found
+20:17:27.012 INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: .contact-item_card__2SOIM
+20:17:32.084 INFO  manager.MyListener - The element with locator ---> By.cssSelector: .contact-item_card__2SOIM <--- was found
+20:17:32.087 INFO  manager.TestNgMyListener - onTestFailure

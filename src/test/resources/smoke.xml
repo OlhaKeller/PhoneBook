@@ -3,7 +3,6 @@
 <suite name="reg" verbose="1">
     <test name="Regression">
         <classes>
-            <class name="tests.LoginTests"/>
             <class name="tests.Registration"/>
         </classes>
     </test>

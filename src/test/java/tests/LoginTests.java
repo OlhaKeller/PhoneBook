@@ -30,15 +30,15 @@ public class LoginTests extends TestBase{
 
     }
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition(){
         //is logged? ->logout
         if(app.getHelperUser().isSignOutPresent()){
             app.getHelperUser().isSignOut();
         }
     }
-
-    @Test (dataProvider = "validLoginData",dataProviderClass = MyDataProvider.class)
+                                                                                    //enable false, poku wo ne sapuskatu
+    @Test (dataProvider = "validLoginData",dataProviderClass = MyDataProvider.class, groups = {"web"},enabled = false)
     public void loginSuccessNew(String email, String password){
 
         //logger.info("Tests starts with email: 'kvitka@gmail.com' and password: 'Kvi12345$'"); kolu bes data provider
@@ -91,7 +91,7 @@ public class LoginTests extends TestBase{
         Assert.assertTrue(app.getHelperUser().isLoginRegistrationSuccess());
     }
 
-    @Test
+    @Test(groups ={"web"})
     public void loginNegativWrongPassword(){
         User user = new User().withEmail("kvitka@gmail.com").withPassword("12345");
         app.getHelperUser().openLoginRegistrationForm();

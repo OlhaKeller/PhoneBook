@@ -1,0 +1,32 @@
+22:23:30.669 INFO  manager.TestNgMyListener - onStart(ISuite suite)
+22:23:30.892 INFO  tests.TestBase - Start test --->loginModelDataProvider
+22:23:30.897 INFO  manager.TestNgMyListener - onTestStartnull
+22:23:30.899 INFO  tests.TestBase - Start test --->loginModelDataProvider
+22:23:30.901 INFO  manager.TestNgMyListener - onTestStartnull
+22:23:30.903 INFO  tests.TestBase - Start test --->loginModelDataProvider
+22:23:30.908 INFO  manager.TestNgMyListener - onTestStartnull
+22:23:30.910 INFO  tests.TestBase - Start test --->loginModelDataProvider
+22:23:30.912 INFO  manager.TestNgMyListener - onTestStartnull
+22:23:30.915 INFO  tests.TestBase - Start test --->loginModelDataProviderCSV
+22:23:30.918 INFO  manager.TestNgMyListener - onTestStartnull
+22:23:30.921 INFO  tests.TestBase - Start test --->loginModelDataProviderCSV
+22:23:30.922 INFO  manager.TestNgMyListener - onTestStartnull
+22:23:30.924 INFO  tests.TestBase - Start test --->loginModelDataProviderCSV
+22:23:30.927 INFO  manager.TestNgMyListener - onTestStartnull
+22:23:30.929 INFO  tests.TestBase - Start test --->loginModelDataProviderCSV
+22:23:30.931 INFO  manager.TestNgMyListener - onTestStartnull
+22:23:30.933 INFO  tests.TestBase - Start test --->loginNegativWrongPassword
+22:23:30.935 INFO  manager.TestNgMyListener - onTestStartnull
+22:23:30.936 INFO  tests.TestBase - Start test --->loginSuccess
+22:23:30.937 INFO  manager.TestNgMyListener - onTestStartnull
+22:23:30.939 INFO  tests.TestBase - Start test --->loginSuccessNewModel
+22:23:30.940 INFO  manager.TestNgMyListener - onTestStartnull
+22:23:30.944 INFO  manager.TestNgMyListener - onTestStartnull
+22:23:30.945 INFO  tests.TestBase - Start test --->registrationSuccess
+22:23:30.947 INFO  manager.TestNgMyListener - onTestStartnull
+22:23:30.949 INFO  tests.TestBase - Start test --->registrationSuccessModel
+22:23:30.951 INFO  manager.TestNgMyListener - onTestStartnull
+22:23:30.953 INFO  tests.TestBase - Start test --->removeAllContact
+22:23:30.955 INFO  manager.TestNgMyListener - onTestStartnull
+22:23:30.957 INFO  tests.TestBase - Start test --->removeOneContact
+22:23:30.960 INFO  manager.TestNgMyListener - onTestStartnull

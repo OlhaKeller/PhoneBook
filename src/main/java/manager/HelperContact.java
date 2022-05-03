@@ -34,7 +34,6 @@ public class HelperContact extends HelperBase{
     public void saveContact() {
 
         WebElement element = wd.findElement(By.cssSelector(".add_form__2rsm2 button"));
-
         element.sendKeys(Keys.TAB);
         pause(500);
         element.sendKeys(Keys.ENTER);

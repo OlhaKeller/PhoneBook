@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class RemoveContact extends TestBase{
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition(){
         if(!app.getHelperUser().isSignOutPresent()){
             app.getHelperUser().login(new User().withEmail("kvitka@gmail.com").withPassword("Kvi12345$"));
@@ -15,7 +15,7 @@ public class RemoveContact extends TestBase{
         app.contact().provideContactData();
     }
 
-    @Test
+    @Test(groups ={"web"}, priority = 1)
     public void removeOneContact(){
         //count before
         Assert.assertEquals(app.contact().removeOneContact(),1);
@@ -23,7 +23,7 @@ public class RemoveContact extends TestBase{
         //assert(before-after, 1)
     }
 
-    @Test
+    @Test(priority = 2)
     public void removeAllContact(){
         app.contact().removeAllContacts();
 

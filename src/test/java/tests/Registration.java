@@ -30,7 +30,7 @@ public class Registration extends TestBase{
         app.getHelperUser().submitRegistration();
 
         Assert.assertTrue(app.getHelperUser().isLoginRegistrationSuccess());
-
+        logger.info("end of test");
         //fill email
         //fill password
         //clickregistration
